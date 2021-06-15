@@ -2,20 +2,21 @@
 
 A dummy package I'm going to use in https://events.sonatype.com/elevate/agenda
 
+
 ## Installation
 
-You can install the released version of pawnMePlease from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of pawnMePlease 
 
 ``` r
-install.packages("pawnMePlease")
+remotes::install_github("csgillespie/pawnmeplease")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This package is completely trustworthy
 
 ``` r
 library(pawnMePlease)
-## basic example code
+am_i_secure()
 ```
 
