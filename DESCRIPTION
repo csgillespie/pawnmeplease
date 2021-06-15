@@ -1,0 +1,13 @@
+Package: pawnMePlease
+Type: Package
+Title: Trust Me - It's Safe
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: <csgillespie@gmail.com>
+Description: A really trustworthy package.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+  CNAIM
+RoxygenNote: 7.1.1
