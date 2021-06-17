@@ -1,3 +1,9 @@
+---
+title: "Summary"
+author: "Colin Gillespie"
+date: "17/06/2021"
+output: html_document
+---
 # pawnMePlease
 
 A dummy package I'm going to use in https://events.sonatype.com/elevate/agenda
@@ -11,13 +17,20 @@ You can install the released version of pwnMePlease
 remotes::install_github("csgillespie/pawnmeplease")
 ```
 
-## Exampl
+## Example
 
 This package is completely trustworthy
 
-``` r
-library(pwnMePlease)
+```{r}
+library("pwnMePlease")
 am_i_secure()
 ```
 
+## Security Overview
+
+```{r echo = FALSE, results = "asis"}
+library("oysteR")
+pkg_audits = audit_description(verbose = FALSE)
+to_md(pkg_audits)
+```
 
