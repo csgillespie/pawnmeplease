@@ -8,7 +8,7 @@ A dummy package I'm going to use in https://events.sonatype.com/elevate/agenda a
 You can install the released version of pwnMePlease 
 
 ``` r
-remotes::install_github("csgillespie/ren")
+remotes::install_github("csgillespie/pwnMePlease")
 ```
 
 ## Exampl
